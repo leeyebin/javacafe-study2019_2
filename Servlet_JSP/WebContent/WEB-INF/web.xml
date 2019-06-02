@@ -16,8 +16,8 @@
 
 	<!-- 서블릿 선언 -->
 	<servlet>
-		<servlet-name>Servlet_Exam</servlet-name>
-		<servlet-class>Servlet_Exam</servlet-class>
+		<servlet-name>Servlet_Exam</servlet-name><!-- 서블릿의 별명을 설정 -->
+		<servlet-class>Servlet_Exam</servlet-class><!-- 패키지 이름을 포함한 서블릿 클래스명을 설정 -->
 	</servlet>
 	<servlet>
 		<servlet-name>GenericServlet_Exam</servlet-name>
@@ -26,8 +26,8 @@
 
 	<!-- 서블릿을 URL과 연결 -->
 	<servlet-mapping>
-		<servlet-name>Servlet_Exam</servlet-name>
-		<url-pattern>/Servlet</url-pattern>
+		<servlet-name>Servlet_Exam</servlet-name><!-- 서블릿의 별명을 설정(서블릿 선언에서 작성한 별명과 동일해야함) -->
+		<url-pattern>/Servlet</url-pattern><!-- 서블릿을 요청할 때 클라이언트가 사용할 url을 설정 -->
 	</servlet-mapping>
  	<servlet-mapping>
 		<servlet-name>GenericServlet_Exam</servlet-name>

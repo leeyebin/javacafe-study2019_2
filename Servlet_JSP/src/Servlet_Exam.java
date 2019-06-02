@@ -20,6 +20,8 @@ ServletConfig config;
 		System.out.println("destroy() 호출됨");
 	}
 	
+	//ServletRequest - 클라이언트의 요청 정보를 다룰 때 사용. 파라미터 등
+	//ServletResponse - 응답과 관련된 기능을 제공. 인토딩타입설정, 문자집합 지정 등
 	@Override
 	public void service(ServletRequest request, ServletResponse response)
 			throws ServletException, IOException {

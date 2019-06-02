@@ -3,6 +3,7 @@
 	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
 	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
 	id="WebApp_ID" version="3.1">
+<!-- 서버의 루트 주소만을 입력하여 접근했을 경우 가장 처음에 띄워줄 경로를 설정하는 tag -->
 	<display-name>Servlet</display-name>
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>

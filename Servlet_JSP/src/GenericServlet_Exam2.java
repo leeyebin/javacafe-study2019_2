@@ -4,8 +4,11 @@ import javax.servlet.GenericServlet;
 import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
+import javax.servlet.annotation.WebServlet;
 
-public class GenericServlet_Exam extends GenericServlet{
+//Annotation을 사용하게 되면 따로 web.xml에 매핑처리를 하지 않아도 된다.
+@WebServlet("/GenericServlet2")
+public class GenericServlet_Exam2 extends GenericServlet{
 	
 	//이미 GenericServlet추상클래스에 구현이 되어있기때문에 필요할때만 오버라이딩해서 사용하면 된다.
 	//@Override
@@ -16,7 +19,7 @@ public class GenericServlet_Exam extends GenericServlet{
 	@Override
 	public void service(ServletRequest servletrequest, ServletResponse servletresponse)
 			throws ServletException, IOException {
-		System.out.println("GenericServlet_service() 호출됨");
+		System.out.println("GenericServlet2_service() 호출됨");
 		
 		//파라미터에 ?a=20&b=30 붙이기
 		//int a = Integer.parseInt(servletrequest.getParameter("a") );

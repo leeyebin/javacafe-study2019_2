@@ -23,6 +23,14 @@
 		<servlet-name>GenericServlet_Exam</servlet-name>
 		<servlet-class>GenericServlet_Exam</servlet-class>
 	</servlet>
+	<servlet>
+		<servlet-name>HttpServlet_Exam</servlet-name>
+		<servlet-class>HttpServlet_Exam</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Servlet_Complex</servlet-name>
+		<servlet-class>Servlet_Complex</servlet-class>
+	</servlet>
 
 	<!-- 서블릿을 URL과 연결 -->
 	<servlet-mapping>
@@ -32,5 +40,13 @@
  	<servlet-mapping>
 		<servlet-name>GenericServlet_Exam</servlet-name>
 		<url-pattern>/GenericServlet</url-pattern>
+	</servlet-mapping>
+ 	<servlet-mapping>
+		<servlet-name>HttpServlet_Exam</servlet-name>
+		<url-pattern>/HttpServlet</url-pattern>
+	</servlet-mapping>
+ 	<servlet-mapping>
+		<servlet-name>Servlet_Complex</servlet-name>
+		<url-pattern>/ServletComplex</url-pattern>
 	</servlet-mapping>
 </web-app>

@@ -2,7 +2,7 @@
     pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <%
-	String javacafe = "자바 카페와 함께하는 Servlet/JSP 강의";
+	String javacafe = "hello 자바 카페와 함께하는 Servlet/JSP 강의";
 %>
 <html>
 <head>

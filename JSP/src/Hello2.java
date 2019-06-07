@@ -11,7 +11,7 @@ public class Hello2 extends HttpServlet {
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		String name = req.getParameter("name");
 		if (name == null) {
-			name = "자바 카페와 함께하는 Servlet/JSP 강의";
+			name = "hello2 자바 카페와 함께하는 Servlet/JSP 강의";
 		}
 		req.setAttribute("javacafe", name);
 		RequestDispatcher dispatcher = req.getRequestDispatcher("/WEB-INF/hello2.jsp");

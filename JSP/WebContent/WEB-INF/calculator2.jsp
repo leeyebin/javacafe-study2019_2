@@ -11,7 +11,7 @@
 <title>계산기</title>
 </head>
 <body>
-	<h2>JSP 계산기</h2>
+	<h2>Model2방식 JSP 계산기</h2>
 	<form action="calculator2" method="get">
 		<!-- 표현식 -->
 		<input type="text" name="v1" size="4" value="${v1}">
